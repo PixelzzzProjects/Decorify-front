@@ -1,7 +1,7 @@
 import Navbar from "@/widgets/back-office/navbar/ui/Navbar";
 import Sidebar from "@/widgets/back-office/sidebar/ui/Sidebar";
 
-export default function Layout({ children }) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex">
       {/* sidebar */}
