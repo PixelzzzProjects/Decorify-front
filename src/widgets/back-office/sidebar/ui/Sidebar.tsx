@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function Sidebar() {
   return (
-    <div className="bg-gray-800 w-64 h-screen">
+    <div className="bg-gray-800 w-64 h-screen text-white">
       <div className="flex items-center justify-center h-16 bg-gray-900 text-white">
-        <h2 className="text-2xl">Admin Panel</h2>
+        <h2 className="text-2xl">Decorify Panel</h2>
         {/* <img src="/logo.svg" alt="logo" className="h-8" /> */}
       </div>
       <nav>

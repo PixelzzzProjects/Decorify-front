@@ -9,7 +9,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <div className="w-full">
         {/* Header */}
         <Navbar />
-        <main>{children}</main>
+        <main className="p-8 bg-green-100 text-yellow-600">{children}</main>
         {/* Main body */}
       </div>
       {/* main body */}
